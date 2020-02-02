@@ -1,13 +1,95 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  z-index: 0;
+  padding-top: 100px;
+  background-color: #787777;
+  background-image: url("https://www.transparenttextures.com/patterns/white-plaster.png");
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#adaptive-container {
+  display: flex; 
+  justify-content: center
+}
+
+#editor-container {
+  background-color: black;
+  padding: 1px 17px 15px 12px;
+  min-width: 250px;
+  margin: auto;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+
+#editor-title{
+  font-family: 'PT Sans', sans-serif;
+  text-align: right;
+  margin: 10px;
+  color:white;
+}
+
+#editor{
+  color: black;
+  font-family: 'Special Elite', cursive;
+  width: 600px;
+  min-width: 220px;
+  height: 255px;
+  margin: auto;
+  background-color: #e1e1e1;
+  background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
+}
+
+#preview-container {
+  background-color: black;
+  padding: 10px 10px 17px;
+  width: 47%;
+  min-width: 270px;
+  margin: 20px auto;
+  border-radius: 2px;
+}
+
+#preview-title{
+  font-family: 'PT Sans', sans-serif;
+  text-align: right;
+  margin: 6px 20px 14px;
+  color:white;
+}
+
+#preview{
+  font-family: 'Orbitron', sans-serif;
+  padding: 2%;
+  color: #d7ca67;
+  width: 94%;
+  margin: auto;
+  background-color: #1b1b1b;
+}
+
+#signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  padding: 25px 0px;
+  color: black;  
+}
+
+#sign-text{
+  font-weight: bold;
+  margin: auto;
+  font-family: 'Special Elite', cursive;
+}
+
+#logos {
+  margin: 15px auto;
+}
+
+a {
+  color: black;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
 }
