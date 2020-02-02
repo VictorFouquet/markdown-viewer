@@ -1,6 +1,6 @@
 body {
   z-index: 0;
-  padding-top: 100px;
+  padding-top: 60px;
   background-color: #787777;
   background-image: url("https://www.transparenttextures.com/patterns/white-plaster.png");
 
@@ -14,7 +14,6 @@ body {
 #editor-container {
   background-color: black;
   padding: 1px 17px 15px 12px;
-  min-width: 250px;
   margin: auto;
   border-radius: 2px;
   display: inline-block;
@@ -41,7 +40,7 @@ body {
 
 #preview-container {
   background-color: black;
-  padding: 10px 10px 17px;
+  padding: 10px;
   width: 47%;
   min-width: 270px;
   margin: 20px auto;
@@ -64,6 +63,16 @@ body {
   background-color: #1b1b1b;
 }
 
+code {
+  background-color: #313131;
+  color: #af8c8c
+}
+
+pre {
+  background-color: #313131;
+  overflow: hidden
+}
+
 #signature {
   display: flex;
   flex-direction: column;
@@ -80,11 +89,11 @@ body {
 }
 
 #logos {
-  margin: 15px auto;
+  margin: 5px auto;
 }
 
 a {
-  color: black;
+  color: #40157d;
   font-size: 30px;
   margin: 0 20px;
 }
